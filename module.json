@@ -1,0 +1,58 @@
+{
+  "id": "foundry-weapon-system",
+  "title": "Weapon System",
+  "description": "<p>Weapon system with Durability, Luster, Sharpness, Gems, Coatings and Weapon Accessories.</p>",
+  "version": "1.1.1",
+
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+
+  "authors": [
+    {
+      "name": "Dartholomeo",
+      "url": "https://www.patreon.com/c/Dartholomeo"
+    }
+  ],
+
+  "url": "https://github.com/Dartholomeo/foundry-weapon-system",
+  "manifest": "https://github.com/Dartholomeo/foundry-weapon-system/releases/latest/download/module.json",
+  "download": "https://github.com/Dartholomeo/foundry-weapon-system/releases/download/v1.1.1/foundry-weapon-system.zip",
+
+  "system": [
+    "dnd5e"
+  ],
+
+  "socket": true,
+
+  "esmodules": [
+    "scripts/weapon_system.js"
+  ],
+
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+
+  "relationships": {
+    "requires": [
+      {
+        "id": "craftingsystem",
+        "type": "module",
+        "manifest": "https://github.com/Dartholomeo/craftingsystem/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.2.1"
+        }
+      }
+    ]
+  }
+}
